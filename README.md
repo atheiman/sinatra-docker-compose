@@ -7,5 +7,9 @@ Following the Docker Compose and Rails quickstart guide https://docs.docker.com/
 ## Progress
 
 ```
+docker-compose up
+```
+
+```
 docker run --rm -p 8080:4567 -v ${PWD}:/app:ro sinatra-docker-compose:latest
 ```
